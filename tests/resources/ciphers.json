@@ -1,0 +1,26 @@
+[
+    {
+        "cipher": "BFFFBBFRRR",
+        "result": {
+            "row": 70,
+            "seat": 7,
+            "id": 567
+        }
+    },
+    {
+        "cipher": "FFFBBBFRRR",
+        "result": {
+            "row": 14,
+            "seat": 7,
+            "id": 119
+        }
+    },
+    {
+        "cipher": "BBFFBBFRLL",
+        "result": {
+            "row": 102,
+            "seat": 4,
+            "id": 820
+        }
+    }
+]
