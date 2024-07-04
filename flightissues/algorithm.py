@@ -22,7 +22,7 @@ def __find_seat(seating_chart) -> int:
     return None
 
 
-def compute(lines: List[str]) -> int:
+def compute(lines: List[str]) -> tuple[int, list[int]]:
     """
     Main algorithm. Returns our seat ID.
     """
@@ -37,4 +37,4 @@ def compute(lines: List[str]) -> int:
         seating_chart[row * SEATS + seat] = id
 
     # Let's find our seat!
-    return __find_seat(seating_chart)
+    return __find_seat(seating_chart), seating_chart

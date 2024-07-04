@@ -7,7 +7,9 @@ def parse_arguments() -> Namespace:
     Fetch arguments from the command line
     """
     commandlineParser = ArgumentParser()
+
     commandlineParser.add_argument("path", help="The input file for the algorithm")
+    commandlineParser.add_argument("-c", "--chart", action="store_true", required=False)
 
     arguments = commandlineParser.parse_args()
 

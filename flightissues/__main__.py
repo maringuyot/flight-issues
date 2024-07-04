@@ -7,6 +7,10 @@ if __name__ == "__main__":
     ciphers = inputparser.parse_input_file(arguments.path)
 
     # Compute our seat id
-    seat_id = algorithm.compute(ciphers)
+    seat_id, seating_chart = algorithm.compute(ciphers)
+
+    if arguments.chart:
+        print(seating_chart)
+        print("==============================")
 
     print(f"Seat ID: {seat_id}")
