@@ -92,7 +92,7 @@ With 2D list, we run into the risk of finding our seat on the edge of the row. F
 
 ### Improving the project
 
-So the algorithm worked well! I'll probably use it some other time... For now I can'll stick to improving the project's lifecycle.
+So the algorithm worked well! I'll probably use it some other time... For now I'll stick to improving the project's lifecycle.
 
 #### Documentation
 
